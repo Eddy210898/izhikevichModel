@@ -1,5 +1,21 @@
-class izhikevichParams
+#include "izhikevichParams.h"
+
+float izhikevichParams::getA()
 {
-public:
-    float a = 0.02, b = 0.2, c = -65, d = 2;
-};
+    return a;
+}
+
+float izhikevichParams::getB()
+{
+    return b;
+}
+
+float izhikevichParams::getC()
+{
+    return c;
+}
+
+float izhikevichParams::getD()
+{
+    return d;
+}
