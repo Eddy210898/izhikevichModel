@@ -28,7 +28,7 @@ pair<float, float> izhikevichStep(float vO, float uO, float t, float dT, izhikev
 
     float u = getNextRungeKuta(
         t, uO, dT, [](float t, float u, float args[]) {
-            float fE = args[1] * args[5];
+            float fE = args[1] * args[4];
             float sE = fE - u;
             return args[0] * sE;
         },
