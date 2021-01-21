@@ -1,4 +1,5 @@
 #include "izhikevichModel.h"
+#include "izhikevichStep.h"
 float *izhikevichModel(float vO, float uO, float dT, izhikevichParams params, int start = 0, int stop = 2000, float I = 0)
 {
     int t = stop - start;
