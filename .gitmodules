@@ -1,0 +1,3 @@
+[submodule "getNextRungeKuta"]
+	path = getNextRungeKuta
+	url = git@github.com:Eddy210898/izhikevichModel.git
