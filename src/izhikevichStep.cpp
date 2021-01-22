@@ -1,6 +1,6 @@
 #include "izhikevichStep.h"
 
-pair<float, float> izhikevichStep(float vO, float uO, float t, float dT, izhikevichParams &params, float I = 0)
+pair<float, float> izhikevichStep(float vO, float uO, float t, float dT, izhikevichParams &params, float I /*= 0*/)
 {
     if (vO >= 30)
     {
